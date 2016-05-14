@@ -15,6 +15,7 @@
   "keywords": [
     "punchcard",
     "cms",
+    "punchcard-cms",
     "yeoman-generator"
   ],
   "dependencies": {
