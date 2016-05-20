@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Validation for <%= name %> Input Plugin
  *
