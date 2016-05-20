@@ -3,9 +3,11 @@ var path = require('path');
 var assert = require('yeoman-assert');
 var helpers = require('yeoman-test');
 
+var generator = path.join(__dirname, '../generators/app');
+
 describe('generator-punchcard:app', function () {
   before(function (done) {
-    helpers.run(path.join(__dirname, '../generators/app'))
+    helpers.run(generator)
       .withPrompts({someAnswer: true})
       .on('end', done);
   });
