@@ -28,7 +28,7 @@
     "eslint-config-punchcard": "^1.0.1",
     "nyc": "^6.0.0",
     "punchcard-content-types": "^0.1.0",
-    "tap-diff": "^0.1.1",
+    "tap-diff": "^0.1.1"
   },
   "engines": {
     "node": "5.7",
