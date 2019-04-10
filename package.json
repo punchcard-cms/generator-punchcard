@@ -22,8 +22,9 @@
     "chalk": "^1.0.0",
     "mkdirp": "^0.5.1",
     "underscore.string": "^3.3.4",
-    "yeoman-generator": "^0.22.0",
-    "yosay": "^1.0.2"
+    "yeoman-generator": "^2.0.5",
+    "yosay": "^1.0.2",
+    "snyk": "^1.149.0"
   },
   "devDependencies": {
     "yeoman-test": "^1.0.0",
@@ -48,8 +49,10 @@
   },
   "repository": "punchcard-cms/generator-punchcard",
   "scripts": {
-    "prepublish": "gulp prepublish",
-    "test": "gulp"
+    "prepublish": "npm run snyk-protect; gulp prepublish",
+    "test": "gulp",
+    "snyk-protect": "snyk protect"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "snyk": true
 }
