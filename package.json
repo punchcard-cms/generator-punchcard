@@ -23,7 +23,7 @@
     "mkdirp": "^0.5.1",
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^0.22.0",
-    "yosay": "^1.0.2"
+    "yosay": "^3.0.0"
   },
   "devDependencies": {
     "yeoman-test": "^1.0.0",
